@@ -1,1 +1,48 @@
 data/raw_fastq/*
+
+# Raw data
+*.sra
+*.fastq
+*.fastq.gz
+
+# QC + trimming
+*.zip
+*.html
+*.json
+*.trim.fastq.gz
+
+# Alignments
+*.sam
+*.bam
+*.bai
+*.out
+*.tab
+
+# Counts
+*.txt
+*.tsv
+
+# Reference
+*.fa
+*.fasta
+*.gtf
+*.gff
+*.dict
+*.idx
+
+# Nextflow
+work/
+.nextflow*
+*.trace
+*.timeline
+*.dot
+
+# R / Python / Jupyter
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+.ipynb_checkpoints/
+
+# Logs
+*.log
